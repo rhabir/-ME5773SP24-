@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Get input
-read -p "Enter a number: " N
+# Get input number as script argument 
+input=$1
 
-# Calculate sleep time 
-sleep_time=$((2*N))
+# Calculate sleep time
+sleep_time=$((2*$input))
 
-# Sleep for calculated time
+# Sleep 
 sleep $sleep_time
 
 # Print output message
