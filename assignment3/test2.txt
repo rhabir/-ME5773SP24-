@@ -1,0 +1,5 @@
+JobID             State    Elapsed        NodeList    CPUTime 
+------------ ---------- ---------- --------------- ---------- 
+350393        COMPLETED   00:01:10            c003   01:33:20 
+350393.batch  COMPLETED   00:01:10            c003   01:33:20 
+350393.exte+  COMPLETED   00:01:10            c003   01:33:20 

@@ -1,0 +1,5 @@
+JobID             State    Elapsed        NodeList    CPUTime      NCPUS 
+------------ ---------- ---------- --------------- ---------- ---------- 
+350399        COMPLETED   00:00:14            c003   00:18:40         80 
+350399.batch  COMPLETED   00:00:14            c003   00:18:40         80 
+350399.exte+  COMPLETED   00:00:14            c003   00:18:40         80 
