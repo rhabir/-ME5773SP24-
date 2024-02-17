@@ -2,8 +2,8 @@ import numpy as np
 import time
 
 # Input the value of N
-#N = int(input("Enter the value of N: "))
 N = 10000
+
 # Print the value of N
 print("N =", N)
 
@@ -27,30 +27,26 @@ f = f.reshape((1, N)).T
 
 print("\nVector 𝐟=",  "\n",f)
 
-timings_creation = []
-timings_solution = []
-
-
-
 # Measure the time taken to create K and f
 start = time.time()
 K = K
 f = f
 end = time.time()
-timings_creation.append(end - start)
 print("\nTime taken to create K and f:", end - start, "seconds")
-
 
 # Solve for u
 start = time.time()
 u = np.linalg.solve(K, f)
 end = time.time()
-timings_solution.append(end - start)
-
 print("\nTime taken to solve for u:", end - start, "seconds")
 
-Total_CPU_time = sum(timings_creation) + sum(timings_solution)
-print("\nTotal_CPU_time=", Total_CPU_time, "seconds")
-
-
 print("\nu[N-1] =", u[-1])
+
+timings_creation = []
+timings_solution = []
+
+timings_creation.append(end - start)
+timings_solution.append(end - start)
+
+print("\nAverage time for K and f creation:", sum(timings_creation) / len(timings_creation))
+print("\nAverage time for solution:", sum(timings_solution) / len(timings_solution))
