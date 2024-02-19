@@ -1,0 +1,199 @@
+The anaconda3  module version current  is loaded.
+
+
+Running with MKL_NUM_THREADS=1
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 7.152557373046875e-07 seconds
+
+Time taken to solve for u: 7.914363861083984 seconds
+
+Total_CPU_time= 7.914364576339722 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=2
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 7.152557373046875e-07 seconds
+
+Time taken to solve for u: 4.1260151863098145 seconds
+
+Total_CPU_time= 4.126015901565552 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=4
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 7.152557373046875e-07 seconds
+
+Time taken to solve for u: 2.2231669425964355 seconds
+
+Total_CPU_time= 2.223167657852173 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=8
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 1.1920928955078125e-06 seconds
+
+Time taken to solve for u: 1.4605340957641602 seconds
+
+Total_CPU_time= 1.4605352878570557 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=16
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 4.76837158203125e-07 seconds
+
+Time taken to solve for u: 1.0364878177642822 seconds
+
+Total_CPU_time= 1.0364882946014404 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=20
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 4.76837158203125e-07 seconds
+
+Time taken to solve for u: 0.9908084869384766 seconds
+
+Total_CPU_time= 0.9908089637756348 seconds
+
+u[N-1] = [1.]
+Running with MKL_NUM_THREADS=40
+N = 10000
+
+Matrix K= 
+ [[ 2. -1.  0. ...  0.  0.  0.]
+ [-1.  2. -1. ...  0.  0.  0.]
+ [ 0. -1.  2. ...  0.  0.  0.]
+ ...
+ [ 0.  0.  0. ...  2. -1.  0.]
+ [ 0.  0.  0. ... -1.  2. -1.]
+ [ 0.  0.  0. ...  0. -1.  1.]]
+
+Vector 𝐟= 
+ [[0.    ]
+ [0.    ]
+ [0.    ]
+ ...
+ [0.    ]
+ [0.    ]
+ [0.0001]]
+
+Time taken to create K and f: 9.5367431640625e-07 seconds
+
+Time taken to solve for u: 0.8863198757171631 seconds
+
+Total_CPU_time= 0.8863208293914795 seconds
+
+u[N-1] = [1.]

@@ -4,3 +4,4 @@ The anaconda3  module version current  is loaded.
 Could not find conda environment: envTeamX
 You can list all discoverable environments with `conda info --envs`.
 
+slurmstepd: error: *** JOB 352484 ON c003 CANCELLED AT 2024-02-18T09:23:18 DUE TO TIME LIMIT ***

@@ -1,0 +1,35 @@
+The anaconda3  module version current  is loaded.
+
+
+Running with OMP_NUM_THREADS=1
+Running with NUMEXPR_NUM_THREADS=1
+Value of F1: 3.1415926535810987
+Time taken to compute F1 with a for loop: 315.910288 seconds
+Value of F2: 1570796326.7948487
+Time taken to compute F2 with vectorization: 15.351924 seconds
+Value of F3: 1570796326.7976582
+Time taken to compute F3 with numexpr: 12.939243 seconds
+Running with OMP_NUM_THREADS=2
+Running with NUMEXPR_NUM_THREADS=2
+Value of F1: 3.1415926535810987
+Time taken to compute F1 with a for loop: 338.427466 seconds
+Value of F2: 1570796326.7948487
+Time taken to compute F2 with vectorization: 15.451771 seconds
+Value of F3: 1570796326.7976582
+Time taken to compute F3 with numexpr: 9.095375 seconds
+Running with OMP_NUM_THREADS=4
+Running with NUMEXPR_NUM_THREADS=4
+Value of F1: 3.1415926535810987
+Time taken to compute F1 with a for loop: 330.165570 seconds
+Value of F2: 1570796326.7948487
+Time taken to compute F2 with vectorization: 15.544014 seconds
+Value of F3: 1570796326.7976582
+Time taken to compute F3 with numexpr: 6.565332 seconds
+Running with OMP_NUM_THREADS=8
+Running with NUMEXPR_NUM_THREADS=8
+Value of F1: 3.1415926535810987
+Time taken to compute F1 with a for loop: 337.489361 seconds
+Value of F2: 1570796326.7948487
+Time taken to compute F2 with vectorization: 15.475204 seconds
+Value of F3: 1570796326.7976582
+Time taken to compute F3 with numexpr: 5.020661 seconds
