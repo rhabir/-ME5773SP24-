@@ -1,0 +1,56 @@
+import numpy as np
+from numba import jit, prange, config
+import time
+
+
+@jit(nopython=True, nogil=True)
+def funct1(x,y,z):
+	return np.sin(x*y)+np.exp(z)*x*y
+# end function
+
+@jit(nopython=True, parallel=True, nogil=True)
+def funct2(X,Y,Z):
+	
+	res = np.zeros(X.shape)
+	
+	for i in prange(X.shape[0]):
+		res[i] = funct1(X[i],Y[i],Z[i])
+	# end for 
+
+	return res
+
+# end function
+
+
+
+if __name__=='__main__':
+
+	# First run, small size
+	# Dummy call to compile
+	config.THEADING_LAYER="omp"
+
+	t_start = time.time()
+
+	size = int(10)
+	X = np.ones(size)
+	Y = np.ones(size)
+	Z = np.ones(size)
+	res = funct2(X,Y,Z)
+
+	t_end = time.time()
+
+	print("Execution time small= {0}s".format(t_end-t_start))
+
+
+
+	t_start = time.time()
+	size = int(10**8)
+	X = np.ones(size)
+	Y = np.ones(size)
+	Z = np.ones(size)
+
+	res = funct2(X,Y,Z)
+
+	t_end = time.time()
+
+	print("Execution time large = {0}s".format(t_end-t_start))
