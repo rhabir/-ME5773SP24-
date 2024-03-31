@@ -1,0 +1,18 @@
+#!/bin/bash
+##
+#SBATCH --job-name=Gauss-Legendre_integration_part2
+#SBATCH --output=part2.txt
+#SBATCH --output=part2.txt
+#SBATCH --partition=compute1
+#SBATCH --time=00:10:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=rakib.hasan@utsa.edu
+#SBATCH --ntasks=19
+#SBATCH --nodes=1
+
+# Load one of these
+module load anaconda3
+conda activate hpc
+conda install -c conda-forge mpi4py mpich
+#module load mpich
+mpirun -n $SLURM_NTASKS python3 part2.py 
