@@ -1,0 +1,66 @@
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,
+/home/skv586/.conda/envs/hpc/lib/python3.12/site-packages/numba/core/typed_passes.py:336: NumbaPerformanceWarning: 
+The keyword argument 'parallel=True' was specified but no transformation for parallel execution was possible.
+
+To find out why, try turning on parallel diagnostics, see https://numba.readthedocs.io/en/stable/user/parallel.html#diagnostics for help.
+
+File "numInt.py", line 24:
+@jit(nopython=True, parallel=True)
+def integral_riemann(a,b,N):
+^
+
+  warnings.warn(errors.NumbaPerformanceWarning(msg,

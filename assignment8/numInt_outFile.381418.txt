@@ -1,0 +1,37 @@
+Starting job - Tue Apr 9 01:10:36 CDT 2024
+Running with NUMBA_NUM_THREADS=1
+Integral 1.804776
+CPU time:2.668961s
+Calculations ended with NUMBA_NUM_THREADS=1
+Total CPU time 5438 [ms]
+----------------------------------
+Running with NUMBA_NUM_THREADS=2
+Integral 1.804776
+CPU time:2.048761s
+Calculations ended with NUMBA_NUM_THREADS=2
+Total CPU time 2672 [ms]
+----------------------------------
+Running with NUMBA_NUM_THREADS=4
+Integral 1.804776
+CPU time:2.116773s
+Calculations ended with NUMBA_NUM_THREADS=4
+Total CPU time 2726 [ms]
+----------------------------------
+Running with NUMBA_NUM_THREADS=8
+Integral 1.804776
+CPU time:2.114511s
+Calculations ended with NUMBA_NUM_THREADS=8
+Total CPU time 2720 [ms]
+----------------------------------
+Running with NUMBA_NUM_THREADS=16
+Integral 1.804776
+CPU time:2.117159s
+Calculations ended with NUMBA_NUM_THREADS=16
+Total CPU time 2676 [ms]
+----------------------------------
+Running with NUMBA_NUM_THREADS=20
+Integral 1.804776
+CPU time:2.113811s
+Calculations ended with NUMBA_NUM_THREADS=20
+Total CPU time 2725 [ms]
+----------------------------------
