@@ -1,0 +1,29 @@
+ifort -c searchutils.f90 -O0 -L. -qopenmp
+ar rc libsearchutils.a searchutils.o
+ranlib libsearchutils.a
+ifort main_program.f90 -o  main_program.exe -O0 -L. -qopenmp -lsearchutils
+Running with 1 threads:
+ Index computed with linear search:            6
+ CPU time for linear search:   3.941202163696289E-002
+ Index computed with linear search:      9999999
+ was the value found?:  T
+Running with 2 threads:
+ Index computed with linear search:            6
+ CPU time for linear search:   2.171087265014648E-002
+ Index computed with linear search:      9999999
+ was the value found?:  T
+Running with 4 threads:
+ Index computed with linear search:            6
+ CPU time for linear search:   1.182484626770020E-002
+ Index computed with linear search:      9999999
+ was the value found?:  T
+Running with 8 threads:
+ Index computed with linear search:            6
+ CPU time for linear search:   6.582021713256836E-003
+ Index computed with linear search:      9999999
+ was the value found?:  T
+Running with 16 threads:
+ Index computed with linear search:            6
+ CPU time for linear search:   3.453016281127930E-003
+ Index computed with linear search:      9999999
+ was the value found?:  T
