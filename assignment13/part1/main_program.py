@@ -88,11 +88,12 @@ grid = pv.UnstructuredGrid(cells, cell_type, points)
 #  
 x = points[:,0]
 y = points[:,1]
-grid['Distance'] = (x**2 + y**2)**0.5
+#grid['Distance'] = (x**2 + y**2)**0.5
 
 # Define the 'dcenter' scalar field (distance to center point (0,2))
 center_point = np.array([0, 2, 0])
 grid['dcenter'] = np.linalg.norm(points - center_point, axis=1)
+
 # Vector fields can also be added for point data. 
 # --> grid[ point_data_name ] = f2
 #          -> point_data_name: any string that defines your field.
@@ -102,13 +103,14 @@ grid['dcenter'] = np.linalg.norm(points - center_point, axis=1)
 # For this example, the following is the generated field
 #
 # Define the 'velocity' vector field
+
 velocity = np.zeros((points.shape[0], 3))
 velocity[:, 0] = y  # y component
 velocity[:, 1] = -x # -x component
 
 grid['velocity'] = velocity
 
-grid['Locations'] = points**2
+#grid['Locations'] = points**2
 
 grid.save("main_program.vtk")
 
